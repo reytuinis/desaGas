@@ -1,0 +1,3 @@
+package com.example.proyecto_gas_12
+
+data class Persona (val txtNombre:String,val txtApellido: String, val txtDireccion:String, val txtNumero:String )//......

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Proyecto_Gas_1.0</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="textoEmail">Email</string>
+    <string name="textoContraseña">Password</string>
+    <string name="botonIngresar">Entrar</string>
+    <string name="botonRegistrar">Registrar</string>
+
+    <string name="texto_desaGas">Desa Gas</string>
+    <string name="descripcion_desaGas">Calidad, Controla tu balon de Gas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

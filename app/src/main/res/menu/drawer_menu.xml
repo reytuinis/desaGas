@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home_black"
+            android:title="Inicio"/>
+        <item
+            android:id="@+id/nav_comprar_balon"
+            android:icon="@drawable/ic_store"
+            android:title="Pedir balon"/>
+        <item
+            android:id="@+id/nav_mis_pedidos"
+            android:icon="@drawable/ic_assignment"
+            android:title="Mis pedidos"/>
+
+        <item
+            android:id="@+id/nav_mis_direcciones"
+            android:icon="@drawable/ic_person_pin"
+            android:title="Mis direcciones"/>
+    </group>
+
+
+    <item android:title="Configuración de Cuenta">
+        <menu>
+            <item
+                android:id="@+id/cuenta"
+                android:icon="@drawable/ic_update"
+                android:title="Cuenta"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_signout"
+                android:title="Salir"/>
+        </menu>
+    </item>
+</menu>
